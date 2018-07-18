@@ -1,0 +1,86 @@
+/** 尾部 **/
+#footer {
+    background: #242424;
+    margin: 0;
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 10px;
+}
+.social-circle li a {
+    background: #35A49C;
+}
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.social-network a.icotaobao:hover {
+    background-color: #F56505;
+}
+
+.social-network a.icoweixin:hover {
+    background-color: #00CF0D;
+}
+
+.social-network a.icovr:hover {
+    background-color: #D9534F;
+}
+
+.social-network a.icotaobao:hover i, .social-network a.icoweixin:hover i, .social-network a.icovr:hover i {
+    color: #fff;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li a:hover img {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.social-circle img {
+    transition: all 0.8s;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+}
+a {
+    color: #35A49C;
+}
+a:hover {
+    color: #79CDC0;
+    text-decoration: none;
+}

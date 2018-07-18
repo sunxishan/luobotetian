@@ -1,0 +1,75 @@
+/** header - 头部 **/
+.navbar{
+    text-align: center;
+}
+/*.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}*/
+.navbar-toggle {
+    padding: 6px;
+}
+h1 a.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 15px;
+    text-shadow: none;
+}
+.navbar-brand {
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1 a.navbar-brand img{
+    display: inline;
+}
+.navbar .navbar-collapse {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px !important;
+}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 16px;
+    height: 3px;
+}
+.navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.navbar-nav {
+    float: right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.nav > li > a {
+    display: block;
+    height: 100%;
+    width: inherit;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: 0 1px 0 rgba(255,255,255,.25);
+}
+.navbar .navbar-nav > .active > a {
+    color: #79CDC0;
+    padding-bottom: 22px;
+}
+.nav>li>a:hover {
+    color: #79CDC0;
+    background: none;
+}
+/* 轮播 */
+.carousel .item {
+    padding: 0 0;
+    /*height: 700px;*/
+    overflow: hidden;
+    background-size: cover !Important;
+}
+
